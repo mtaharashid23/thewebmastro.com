@@ -1,0 +1,887 @@
+@media (max-width: 1880px) {
+    .processWrapper .processList li:nth-child(1)::after,
+    .processWrapper .processList li:nth-child(2)::after,
+    .processWrapper .processList li:nth-child(3)::after,
+    .processWrapper .processList li:nth-child(4)::after,
+    .processWrapper .processList li:nth-child(5)::after {
+        display: none;
+    }
+    .processWrapper .line {
+        left: -6%;
+        background-color: var(--theme-color);
+    }
+    .processList {
+        flex: 1;
+        z-index: -2;
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .processWrapper .processList li+li {
+        margin-top: 2rem;
+    }
+    .processWrapper .line {
+        left: -7%;
+        background-color: var(--theme-color);
+    }
+    .processList {
+        flex: 1;
+        z-index: -2;
+        margin-left: 8.5%;
+    }
+    .processWrapper .processList li div p {
+        max-width: 400px;
+    }
+    .our-services {
+        padding: 8.5rem 0 7rem;
+    }
+    .heading {
+        font-size: 4rem;
+    }
+    .contactSection {
+        padding: 6rem 0;
+    }
+    header .navbar .navbar-nav {
+        gap: 0.5rem;
+    }
+
+    .headerSocial {
+        gap: 1rem;
+    }
+
+    .navbar-brand {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 13px;
+    }
+    .logo img {
+        max-width: 8.85vw;
+    }
+    .contactSec h1 {
+        letter-spacing: -5px;
+    }
+    .contactBtn {
+        width: 15.12vw;
+        height: 15.12vw;
+        min-width: 140px;
+        min-height: 140px;
+    }
+    .faqSec .faqItem {
+        margin-top: 2rem;
+    }
+    .footerLogo img {
+        max-width: 11.75vw;
+    }
+    .packagesCard h2 {
+        font-size: 3.75rem;
+    }
+    .social {
+        gap: 2.5rem;
+    }
+    .faqSec,
+    .offerSec,
+    .contactSec {
+        padding: 7rem 0 4.75rem 0;
+    }
+    .offerWrapper {
+        margin-top: 5rem;
+    }
+    section {
+        padding: 4.5rem 0;
+    }
+    .packageSlider {
+        margin-top: 2.5rem;
+        padding-bottom: 0.75rem;
+    }
+    .portfoliowrapper {
+        width: 135%;
+    }
+    .innerHeroSection h1 {
+        letter-spacing: -3px;
+    }
+    .processWrapper .processList li+li {
+        margin-top: 1rem;
+    }
+    .servicesWrap {
+        flex-wrap: wrap;
+    }
+    .servicesItem .servicesTitle {
+        white-space: nowrap;
+    }
+    .our-services {
+        padding: 8rem 0 6.5rem;
+    }
+    .heading {
+        font-size: 3.5rem;
+    }
+    .contactSection {
+        padding: 5.5rem 0;
+    }
+}
+
+@media (max-width: 1366.98px) {
+    .processList {
+        margin-left: 6%;
+    }
+    .our-services {
+        padding: 7.5rem 0 6.25rem;
+    }
+    .contactSection {
+        padding: 5rem 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 13px;
+    }
+    .contactSec h1 {
+        letter-spacing: -3px;
+    }
+    .magnetic {
+        margin-top: -2rem;
+        white-space: nowrap;
+    }
+    .testimonialSlider .swiper-pagination {
+        width: 85%;
+        bottom: 1.5rem;
+    }
+    .faqSec .faqItem {
+        margin-top: 1.75rem;
+    }
+    .packagesCard h2 {
+        font-size: 3.5rem;
+    }
+    .social {
+        gap: 2.25rem;
+    }
+    .faqSec,
+    .offerSec,
+    .contactSec {
+        padding: 6rem 0 4.5rem 0;
+    }
+    .offerWrapper {
+        margin-top: 4rem;
+    }
+    section {
+        padding: 4rem 0;
+    }
+    .packageSlider {
+        margin-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    .portfoliowrapper {
+        width: 180%;
+        gap: 1.5rem;
+    }
+    .innerHeroSection h1 {
+        letter-spacing: -2px;
+    }
+    .processWrapper .processList li {
+        align-items: center;
+        max-width: 400px;
+    }
+    .processWrapper .processList li+li {
+        margin-top: 2rem;
+    }
+    .processWrapper .processList li:nth-child(1),
+    .processWrapper .processList li:nth-child(5) {
+        margin-left: -11rem;
+    }
+    .processWrapper .processList li:nth-child(3) {
+        margin-left: 1rem;
+    }
+    .processWrapper .processList li:nth-child(2),
+    .processWrapper .processList li:nth-child(4) {
+        margin-left: -3rem;
+    }
+    .processWrapper .processList li::after {
+        display: none;
+    }
+    .processWrapper .processList li:nth-child(1)::before {
+        transform: translateY(0) translateX(0%) rotate(-45deg);
+        top: 85%;
+        left: -9rem;
+        width: 150px;
+    }
+    .processWrapper .processList li:nth-child(5)::before {
+        top: 16%;
+        left: -8rem;
+        width: 150px;
+    }
+    .processList {
+        margin-left: 12%;
+    }
+    .servicesItem .servicesTitle {
+        width: fit-content;
+    }
+
+    .our-services {
+        padding: 7rem 0 6rem;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+    .contactSection {
+        padding: 4.5rem 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 12px;
+    }
+    .clientShowcase p {
+        font-size: 1.25rem;
+    }
+    .logo img {
+        max-width: 12vw;
+    }
+    .contactSec h1 {
+        letter-spacing: -1px;
+    }
+    .magnetic {
+        width: fit-content;
+        margin-left: auto;
+        margin-top: 0rem;
+    }
+    .contactBtn {
+        font-size: 1.375rem;
+    }
+    .testimonialSlider {
+        padding: 2rem 0;
+        margin-top: 1rem;
+    }
+    .testimonialSlider .swiper-button-prev,
+    .testimonialSlider .swiper-button-next {
+        display: none;
+    }
+    .testimonialSlider .swiper-pagination {
+        width: 100%;
+        bottom: 0;
+        gap: 1rem;
+    }
+    .faqSec .faqItem {
+        margin-top: 1.5rem;
+    }
+    .faqSec .faqItem {
+        padding: 2.5rem 1rem;
+    }
+    .faqItem p {
+        letter-spacing: 0;
+    }
+    .packagesSec .swiper-button-prev {
+        left: -6rem;
+    }
+    .packagesSec .swiper-button-next {
+        right: -6rem;
+    }
+    .packagesSec .swiper-button-prev,
+    .packagesSec .swiper-button-next {
+        width: 40px;
+        height: 40px;
+    }
+    .packagesSec .swiper-button-prev::before,
+    .packagesSec .swiper-button-next::before {
+        width: 38px;
+        height: 38px;
+    }
+    .packagesCard h2 {
+        font-size: 3.25rem;
+    }
+    .social {
+        gap: 2rem;
+    }
+    .heroSec {
+        padding: 14rem 0 5rem 0;
+    }
+    .heroSec .clientShowcase {
+        margin-top: 11rem;
+    }
+    .faqSec,
+    .offerSec,
+    .contactSec {
+        padding: 5rem 0 4rem 0;
+    }
+    .offerWrapper {
+        margin-top: 3rem;
+    }
+    section {
+        padding: 3.5rem 0;
+    }
+    .processStepWrapper {
+        gap: 4rem;
+    }
+    .processStepItem {
+        text-align: center;
+        gap: 1rem;
+    }
+    .processStepItem h4::before,
+    .processStepItem h4::after {
+        display: none;
+    }
+    .packageSlider {
+        margin-top: 1.5rem;
+        padding-bottom: 0.25rem;
+    }
+    .packagesCard {
+        padding: 2rem 1rem 1.5rem;
+    }
+    .portfoliowrapper {
+        width: 220%;
+        gap: 1.25rem;
+    }
+    .innerHeroSection h1 {
+        letter-spacing: -1px;
+        margin-bottom: 2rem;
+    }
+    .processWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10rem;
+    }
+    .processWrapper .processText {
+        font-size: 2rem;
+        letter-spacing: 0;
+        margin-left: -8rem;
+        margin-top: -2rem;
+    }
+    .processWrapper .processText::before {
+        width: calc(100% + 2.5rem);
+        height: calc(100% + 2.5rem);
+    }
+    .processWrapper .line {
+        border-radius: 0;
+        width: 5px;
+        height: 100%;
+        left: -0.75rem;
+    }
+    .processWrapper .line::before {
+        display: none;
+    }
+    .processWrapper .processList li {
+        margin-left: 0 !important;
+    }
+    .processWrapper .processList li+li {
+        margin-top: 3rem;
+    }
+    .processWrapper .processList li:nth-child(1)::before,
+    .processWrapper .processList li:nth-child(2)::before,
+    .processWrapper .processList li:nth-child(3)::before,
+    .processWrapper .processList li:nth-child(4)::before,
+    .processWrapper .processList li:nth-child(5)::before {
+        transform: translateY(50%) translateX(0%) rotate(0deg);
+        top: 50%;
+        left: auto;
+        width: 60px;
+    }
+    .processWrapper .processList li:nth-child(1)::after,
+    .processWrapper .processList li:nth-child(2)::after,
+    .processWrapper .processList li:nth-child(3)::after,
+    .processWrapper .processList li:nth-child(4)::after,
+    .processWrapper .processList li:nth-child(5)::after {
+        top: 53%;
+        bottom: auto;
+        left: -65px;
+    }
+    .processWrapper .processList li {
+        background-size: 100% 100%;
+        gap: 1rem;
+    }
+    .processWrapper .processList li figure {
+        min-width: 80px;
+        min-height: 80px;
+        padding: 1.5rem;
+    }
+    .processWrapper .processList li h3 {
+        font-size: 1.35rem;
+        letter-spacing: 0px;
+    }
+    .processWrapper .processList {
+        margin-left: 5rem;
+    }
+    .servicesWrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .servicesItem .servicesContent {
+        opacity: 1;
+        visibility: visible;
+        margin: 3rem 0 0;
+    }
+    .servicesItem .servicesContent {
+        padding: 1.75rem;
+    }
+    .navigation ul {
+        grid-template-columns: 1fr;
+    }
+    .navigation li {
+        min-width: 100%;
+    }
+    .text {
+        display: none;
+    }
+
+    .our-services {
+        padding: 6rem 0 5rem;
+    }
+    .blurTop, .testimonailWrapper, .text {
+        display: none;
+    }
+    .heading {
+        font-size: 2.75rem;
+    }
+    .contactSection {
+        padding: 4rem 0;
+    }
+    .faqSec .faqItem:hover::before {
+        animation: none;
+        opacity: 0;
+    }
+    .servicesItem .servicesTitle {
+        margin: 0 auto;
+    }
+    .processWrapper .processList li {
+        filter: none;
+    }
+    header .navbar .navbar-nav {
+        gap: 1rem;
+    }
+    .headerSocial {
+        gap: 2rem;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+    header .navbar .nav-item a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 14px;
+    }
+    header {
+        position: unset;
+    }
+    .heroSec .content h1 {
+        font-size: 6vw;
+    }
+    .innerHeroSection .row {
+        gap: 2rem;
+    }
+    .logo img {
+        max-width: 90px;
+    }
+    section h2 {
+        font-size: 5vw;
+    }
+    .faqSec .faqItem {
+        margin-top: 1.25rem;
+    }
+    .contactSec h1 {
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .contactBtn {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .magnetic {
+        /* width: 100%; */
+        margin: 1rem auto 0;
+    }
+    .offerWrapper {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .offerWrapperItem:hover .itemContent {
+        opacity: 1;
+        visibility: visible;
+    }
+    .offerWrapper .offerWrapperItem+.offerWrapperItem {
+        border-left: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .offerWrapper .offerWrapperItem {
+        width: 100%;
+    }
+    .offerWrapperItem .itemContent h3 {
+        writing-mode: unset;
+        transform: scale(1);
+        font-size: 1.325rem;
+    }
+    .offerWrapperItem .listInfo {
+        display: none;
+    }
+    .offerWrapperItem .itemContent {
+        position: static;
+        transform: translate(0, 0);
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .offerWrapperItem .listCta {
+        height: 80px;
+    }
+    .testimonialItem h4 {
+        font-size: 1.5rem;
+    }
+    .testimonialSlider {
+        padding: 1rem 0;
+        margin-top: 0.5rem;
+    }
+    .testimonialItem {
+        padding-bottom: 1.5rem;
+    }
+    .testimonialSlider .swiper-pagination {
+        gap: 10px;
+    }
+    .faqSec .faqItem {
+        padding: 0rem 15px;
+    }
+    .packagesCard h5 {
+        font-size: 1.25rem;
+    }
+    .packagesCard h2 {
+        font-size: 3rem;
+    }
+    .packagesCard ul li {
+        margin-top: 10px;
+    }
+    .packagesCard .cardTitle {
+        min-width: fit-content;
+    }
+    .testimonialTextFooter {
+        margin-top: 2rem;
+    }
+    .social {
+        gap: 1.75rem;
+    }
+    .footerLogo img {
+        max-width: 140px;
+        margin-bottom: 1rem;
+    }
+    footer ul li+li {
+        margin: 9px 0 0;
+    }
+    footer h4 {
+        margin: 1.35rem 0;
+        font-size: 1.4rem;
+    }
+    .privacy {
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+    .heroSec {
+        padding: 4rem 0;
+    }
+    .heroSec .clientShowcase {
+        margin-top: 10rem;
+    }
+    .faqSec,
+    .offerSec,
+    .contactSec {
+        padding: 4rem 0 3rem 0;
+    }
+    section {
+        padding: 3rem 0;
+    }
+    .processStepWrapper {
+        gap: 3rem;
+    }
+    .processStepItem {
+        gap: 10px;
+    }
+    .packageSlider {
+        margin-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    .packagesCard {
+        margin: 0rem 5rem;
+        padding: 1.5rem 1rem 1rem;
+    }
+    .portfoliowrapper {
+        width: 250%;
+        gap: 1rem;
+    }
+    .innerHeroSection h1 {
+        font-size: 1.75rem;
+        letter-spacing: 0;
+    }
+    .showcaseCard {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        gap: 1.5rem;
+    }
+    .showcaseCard img {
+        width: 30px;
+    }
+    .showcaseCard h3 {
+        font-size: 1.325rem;
+    }
+    .processWrapper {
+        margin-left: 0;
+    }
+    .processWrapper .line {
+        width: 0px;
+        border-width: 3px;
+        left: 0rem;
+    }
+    .processWrapper .processText {
+        font-size: 1.5rem;
+        letter-spacing: 0;
+        margin-left: -3rem;
+        margin-top: -2rem;
+        min-width: 120px;
+        min-height: 120px;
+    }
+    .processWrapper .processList li p {
+        font-size: 13px;
+    }
+    .servicesWrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .servicesItem .servicesContent {
+        padding: 1.5rem;
+    }
+    .servicesItem .servicesContent p {
+        font-size: 13px;
+    }
+    .our-services {
+        padding: 5rem 0 4rem;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+    .contactSection {
+        padding: 3.5rem 0;
+    }
+    .packagesSec .swiper-button-next {
+        right: 2rem;
+    }
+    .packagesSec .swiper-button-prev {
+        left: 2rem;
+    }
+    .heroTxt h1 {
+        font-size: 2.5rem;
+    }
+    header .navbar .navbar-nav {
+        gap: 10px;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 13px;
+    }
+    .navigation {
+        width: 260px;
+    }
+    .heroSec .clientShowcase {
+        margin-top: 9rem;
+    }
+    .clientShowcase p {
+        font-size: 1.125rem;
+    }
+    section h2 {
+        font-size: 6vw;
+        line-height: 1.35;
+    }
+    .faqSec .faqItem {
+        margin-top: 1rem;
+    }
+    .offerWrapperItem .listCta {
+        height: 60px;
+    }
+    .testimonialItem h4 {
+        font-size: 1.275rem;
+    }
+    .testimonialSlider {
+        padding: 0rem 0;
+        margin-top: 0rem;
+    }
+    .testimonialSlider .swiper-pagination {
+        gap: 0;
+    }
+    .faqSec .faqItem {
+        padding: 0rem 10px;
+    }
+    .footerLogo img {
+        max-width: 120px;
+        margin-bottom: 2rem;
+    }
+    .packagesCard ul li {
+        margin-top: 5px;
+    }
+    .social {
+        gap: 1.5rem;
+    }
+    .social li a {
+        font-size: 1.35rem;
+    }
+    footer h4 {
+        margin: 1.25rem 0;
+        font-size: 1.35rem;
+    }
+    footer ul li+li {
+        margin: 6px 0 0;
+    }
+    .faqSec,
+    .offerSec,
+    .contactSec {
+        padding: 3rem 0 2rem 0;
+    }
+    section {
+        padding: 2.5rem 0;
+    }
+    .processStepWrapper {
+        gap: 2rem;
+    }
+    .processStepItem {
+        gap: 5px;
+    }
+    .portfoliowrapper {
+        width: 280%;
+    }
+    .processWrapper .processList {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .processWrapper .processList li {
+        /* background-color: var(--theme-color); */
+        border-radius: 10px;
+        background-image: none;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+        max-width: 100%;
+    }
+    .processWrapper .processList li span {
+        top: 1rem;
+        right: 1rem;
+    }
+    .processWrapper .processText {
+        margin: 2rem auto;
+    }
+    .processWrapper .processList li::before,
+    .processWrapper .processList li::after,
+    .processWrapper .line {
+        display: none;
+    }
+    .processWrapper .processList li+li {
+        margin-top: 1.25rem;
+    }
+    .servicesWrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .servicesItem .servicesContent {
+        padding: 1.25rem;
+    }
+    .our-services {
+        padding: 4rem 0 3rem;
+    }
+    .heading, .serviceTxt h2 {
+        font-size: 2rem;
+    }
+    .heading {
+        max-width: 320px;
+        margin: auto;
+    }
+    .serviceCard {
+        min-height: fit-content;
+        padding: 1.5rem;
+    }
+    .contactSection, .portfolioSection {
+        padding: 3rem 0;
+    }
+    .aboutSection .heading, .contactSection .heading, .testimonialSection .heading {
+        margin: 0;
+        max-width: 100%;
+    }
+    .floatingform-sec .outer-show {
+        height: 200px;
+    }
+    .floatingform-sec .outer-show p {
+        bottom: 89px;
+    }
+    footer {
+        z-index: 1000;
+        background: #120f28;
+    }
+    .clientShowcase::after {
+        content: none;
+    }
+    .clientShowcase::before {
+        content: none;
+    }
+    .callusnow.chat {
+        bottom: 65px;
+    }
+    .callusnow {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .formCont h6 {
+        font-size: 1.3rem;
+    }
+    .floatingform-sec .banner-form {
+        width: 290px;
+    }
+    .floatingform-sec.show .outer-show {
+        left: 340px;
+    }
+    .floatingform-sec{
+        top: unset;
+        bottom: 80px;
+
+    }
+    .floatingform-sec .outer-show {
+        top: 157px;
+    }
+    .formCont h6 span strong {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:480px) {
+ 
+}
+@media (max-width:420px) {
+    .packagesCard {
+        margin: 0rem 1rem
+    }
+    .formCont .bannerForm .formContent input {
+        width: 210px;
+    }
+    .navigation a {
+        font-size: 5vw;   
+    }
+}
+@media (max-width:380.99px) {
+    header .navBar .infoCont .phone {
+        font-size: 20px;
+        width: 38px;
+        height: 33px;
+        overflow: hidden;
+        background: #06bef1;
+        padding: 0.2rem 0.7rem;
+        border-radius: 10px;
+    }
+    .navBar .themeBtn {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 320.98px) {
+    html {
+        font-size: 11px;
+    }
+}
