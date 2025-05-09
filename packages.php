@@ -1,521 +1,25 @@
-﻿<!-- Hero Section -->
-<!doctype html>
-<html lang="en">
+﻿<?php $title = "Packages | Digitally Bridging Borders, Enhancing Global Presence | The Web Mastro";
+include('include/header.php'); ?>
 
-<head>
-    <title>Digitally Bridging Borders, Enhancing Global Presence | The Web Mastro</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    
-    <link rel="canonical" href="https://www.thewebmastro.com/">
-    <link rel="icon" href="assets/images/favicon.webp" type="image/png">
-    <link href="assets/css/ledge/sweetalert.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/plugin.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="canonical" href="index.html">
-</head>
-
-<body>
-    <header>
+    <div class="heroSec heroInner aboutHero">
+        <div class="text">Web Master</div>
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.webp" alt="web mastro" data-magnetic="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fas fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav justify-content-center align-items-center">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
+            <div class="row ">
+                <div class="col-lg-6 col-md-7 mx-auto">
+                    <div class="heroTxt text-center">
 
-                        <li class="nav-item">
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                aria-expanded="false">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-
-                                <a href="web-development.html">
-                                    Website Development
-                                </a>
-
-
-                                <a href="logo-design.html">
-                                    Logo Design
-                                </a>
-
-
-                                <a href="web-portal.html">
-                                    Web Portal
-                                </a>
-
-
-                                <a href="ecommerce.html">
-                                    Ecommerce Solutions
-                                </a>
-
-
-                                <a href="video-animation.html">
-                                    Video Animation
-                                </a>
-
-
-                                <a href="marketing-collateral.html">
-                                    Marketing Collateral
-                                </a>
-
-
-                                <a href="digital-marketing.html">
-                                    Digital Marketing
-                                </a>
-
-
-                                <a href="creative-copywriting.html">
-                                    Creative Copywriting
-                                </a>
-
-
-                                <a href="mobile-apps.html">
-                                    Mobile Apps
-                                </a>
-
-
-                                <a href="seo.html">
-                                    SEO Services
-                                </a>
-
-
-                                <a href="crm.html">
-                                    CRM Solutions
-                                </a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="packages.html">
-                                Packages
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="portfolio.html">
-                                Portfolio
-                            </a>
-                        </li>
-
-
-                        <li class="nav-item">
-                            <a href="reviews.html">
-                                Reviews
-                            </a>
-                        </li>
-
-
-
-                    </ul>
-                    <ul class="headerSocial d-flex align-items-center">
-                        <li><a href="https://www.facebook.com/thewebmastrodesign"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li><a href="https://twitter.com/Webmastrooff"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/101369763"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li>
-                            <a href="tel:+1 (877) 209-2681" class="phone ">
-                                <i class="fas fa-phone-alt"></i>
-                                +1 (877) 209-2681
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-        </div>
-    </header>
-
-    <div class="heroSec">
-        <div class="text">The Web Mastro</div>
-        <div class="container">
-            <div class="content">
-                <h1>A digital agency for the future. We create end-to-end <span class="blue"></span></h1>
-            </div>
-            <div class="formCont">
-                <h6>Fill the Form to <span>Avail <strong>75% OFF</strong></span></h6>
-
-                <div class="bannerForm" data-form-type="ordernow_form">
-                    <form class="cmxform leadStepForm  has-validation-callback" id="regForm" method="post"
-                        enctype="multipart/form-data" action="javascript:void(0)">
-                        <div id="html_description" class="d-none">
-                            <ul>
-                                <li>4 Original Logo Concepts</li>
-                                <li>2 Dedicated Logo Designer</li>
-                                <li>4 Revisions</li>
-                                <li>With Grey Scale Format</li>
-                                <li>Free Icon Design</li>
-                                <li>Formats: JPEG Only</li>
-                                <li>24 - 48 Business Hours Turn Around Time</li>
-                                <span>MORE FEATURES</span>
-                                <li>100% Satisfaction</li>
-                                <li>100% Ownership Rights</li>
-                                <li>Money Back Guarantee</li>
-                                <li>Dedicated Account Manager</li>
-                            </ul>
-                        </div>
-                        <div class="formContent">
-                            <div class="inputCont tab" style="display: block">
-                                <input type="text" placeholder="Enter Your Name" name="name">
-                            </div>
-                            <div class="inputCont tab" style="display: none">
-                                <input type="email" placeholder="Enter Your Email" name="email">
-                            </div>
-                            <div class="inputCont tab" style="display: none">
-                                <input type="tel" placeholder="Enter Your Phone" name="phone">
-                            </div>
-                            <div class="btnCont">
-                                <button class="themeBtn buton" type="button" id="prevBtn" onclick="nextPrev(-1)"
-                                    style="display: none;">Previous
-                                </button>
-                                <button class="themeBtn buton" type="button" id="nextBtn" onclick="nextPrev(1)"
-                                    style="display: inline;">Start Project
-                                </button>
-                                <button class="themeBtn buton" type="submit" id="signupBtn2" style="display: none;">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                        <div id="formResult" class="popFormResult"></div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="hero-home__clients">
-            <div class="container">
-                <h3 class="title">Achievements and Awards </h3>
-                <div class="widget-brands swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/partner1.webp" alt="Partner Image 1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/partner2.webp" alt="Partner Image 2">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/partner3.webp" alt="Partner Image 3">
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/partner5.webp" alt="Partner Image 5">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/partner6.webp" alt="Partner Image 6">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/SEM-rush-badge.webp" alt="SEMrush Badge">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="logo">
-                                <img class="lazy" src="assets/images/white-rect.webp" alt="Partner Image 7">
-                            </div>
-                        </div>
+                        <p class="small-text">Not sure how to choose a vendor? </p>
+                        <h1 class="mb-lg-4 mb-md-3">Not sure how to choose a vendor? <br>
+                            <span class="blue">Perfect</span>.
+                        </h1>
+                        <p class="mt-sm-3 mt-xs-4">Our Developers Have Hacked the Code of <br>
+                            Success for Your Website</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- !@Hero  Section -->
-
-    <!-- Offer Section -->
-    <section class="offerSec noise">
-        <div class="text">What we do</div>
-        <div class="container">
-            <h2 class="secHeading">What We <span>Do</span></h2>
-        </div>
-        <div class="offerWrapper swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="web-development.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Website<br> Development</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Website <br> Development</h4>
-                            <ul class="listDesc">
-                                <li>Responsive Website</li>
-                                <li>WordPress Website</li>
-                                <li>E-commerce Website</li>
-                                <li>Corporate Website</li>
-                                <li>Flat Website</li>
-                                <li>Landing Pages</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="logo-design.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Logo <br> Design</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Logo <br> Design</h4>
-                            <ul class="listDesc">
-                                <li>Iconic Logo Design</li>
-                                <li>3D/2D Logos</li>
-                                <li>Animated Logo</li>
-                                <li>Typographic Logo</li>
-                                <li>Abstract Logo</li>
-                                <li>Illustrative Logo</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="ecommerce.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Ecommerce <br> Solutions</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Ecommerce <br> Solutions</h4>
-                            <ul class="listDesc">
-                                <li>Custom Website</li>
-                                <li>Payment Integration</li>
-                                <li>Responsive eCommerce</li>
-                                <li>SEO Optimized</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="video-animation.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Video <br>Animation</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Video <br>Animation</h4>
-                            <ul class="listDesc">
-                                <li>2D Animation</li>
-                                <li>3D Animation</li>
-                                <li>Explainer Video</li>
-                                <li>Whiteboard Animation</li>
-                                <li>Typography Animation</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="marketing-collateral.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Marketing <br> Collateral</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Marketing <br> Collateral</h4>
-                            <ul class="listDesc">
-                                <li>Stationery Design</li>
-                                <li>Brochure Design</li>
-                                <li>Poster Design</li>
-                                <li>Product Packing Design</li>
-                                <li>Book/Magazine Design</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="digital-marketing.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Digital <br> Marketing</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Digital <br> Marketing</h4>
-                            <ul class="listDesc">
-                                <li>Brand Management</li>
-                                <li>Community Building</li>
-                                <li>Social Media PR</li>
-                                <li>Social Campaigns</li>
-                                <li>Social Media Monitoring</li>
-                                <li>Social Media Consultation</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="creative-copywriting.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Creative <br>Copywriting</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Creative <br>Copywriting</h4>
-                            <ul class="listDesc">
-                                <li>Article Writing</li>
-                                <li>Blog Writing</li>
-                                <li>Press Release</li>
-                                <li>Website Content</li>
-                                <li>Product Description</li>
-                                <li>eBooks</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="mobile-apps.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>Mobile <br>Apps</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">Mobile <br>Apps</h4>
-                            <ul class="listDesc">
-                                <li>IOS App Development</li>
-                                <li>React Native App</li>
-                                <li>Customize Web App</li>
-                                <li>Android App Development</li>
-                                <li>AR/VR App Development</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="seo.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>SEO <br>Services</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">SEO <br>Services</h4>
-                            <ul class="listDesc">
-                                <li>On-Page Services</li>
-                                <li>SEO Copywriting</li>
-                                <li>Website Auditing</li>
-                                <li>Link Building</li>
-                                <li>Website Optimization</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="crm.html" class="offerWrapperItem">
-                        <div class="itemContent">
-                            <h3>CRM <br> Solutions</h3>
-                        </div>
-                        <div class="listInfo">
-                            <h4 class="listCaption">CRM <br> Solutions</h4>
-                            <ul class="listDesc">
-                                <li>Data Analytics</li>
-                                <li>Lead Management</li>
-                                <li>Sales Automation</li>
-                                <li>Contact Syncing</li>
-                                <li>Email Campaigns</li>
-                                <li>Support Tracking</li>
-                            </ul>
-                        </div>
-                        <div class="listCta">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- !@Offer  Section -->
-
-    <!-- Portfolio Section -->
-    <section class="portfolioSec">
-        <div class="text">Our Portfolio.</div>
-        <h2 class="secHeading">Take a Look at <span class="blue">Our Portfolio. </span></h2>
-        <ul class="portfoliowrapper">
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img11.webp" class="img-fluid" alt="Our Projects">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img12.webp" class="img-fluid" alt="image">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img13.webp" class="img-fluid" alt="Web Design">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img14.webp" class="img-fluid" alt="web Style">
-                </figure>
-            </li>
-        </ul>
-        <ul class="portfoliowrapper portfoliowrapper1">
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img21.webp" class="img-fluid" alt="Mobile app">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img22.webp" class="img-fluid" alt="3D Animation Services">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img23.webp" class="img-fluid" alt="E-commerce website">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/images/portfolio/img24.webp" class="img-fluid" alt="Web Portal Development">
-                </figure>
-            </li>
-        </ul>
-    </section>
-    <!-- !@Portfolio  Section -->
 
     <!-- Packages Section -->
     <section class="packagesSec noise">
@@ -552,7 +56,6 @@
 
                     <div class="swiper packageSlider">
                         <div class="swiper-wrapper">
-
                             <div class="swiper-slide">
                                 <div class="packagesCard" data-package-box="">
                                     <div class="productSku" style="display: none;">
@@ -815,7 +318,6 @@
 
                     <div class="swiper packageSlider">
                         <div class="swiper-wrapper">
-
                             <div class="swiper-slide">
                                 <div class="packagesCard" data-package-box="">
                                     <div class="productSku" style="display: none;">
@@ -1052,6 +554,263 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="packagesCard" data-package-box="">
+                                    <div class="productSku" style="display: none;">
+                                        AUTOMATED_INTERACTIVE_ECOM_PACKAGE
+                                    </div>
+
+                                    <h5>Automated / Interactive E-Commerce Package</h5>
+                                    <h2>$9995</h2>
+                                    <del>$39980</del>
+
+                                    <div data-package-scroll="">
+                                        <ul class="packfeatures list-scroll">
+                                            <li>Unlimited Page Website</li>
+                                            <li>Custom Content Management System (CMS)</li>
+                                            <li>Unique Pages and UI Design</li>
+                                            <li>Complete Custom Development</li>
+                                            <li>Process Automation Tools</li>
+                                            <li>Newsfeed Integration</li>
+                                            <li>Social Media Plugins Integration</li>
+                                            <li>Upto 40 Stock images</li>
+                                            <li>10 Unique Banner Designs</li>
+                                            <li>JQuery Slider</li>
+                                            <li>Search Engine Submission</li>
+                                            <li>Free Google Friendly Sitemap</li>
+                                            <li>FREE 5 Years Hosting</li>
+                                            <li>Custom Email Addresses</li>
+                                            <li>Social Media Page Designs (Facebook, Twitter, Instagram)</li>
+                                            <li>Complete W3C Certified HTML</li>
+                                            <li>Complete Deployment</li>
+                                            <li>100% Satisfaction Guarantee</li>
+                                            <li>100% Unique Design Guarantee</li>
+                                            <li>Money Back Guarantee</li>
+
+
+
+
+
+                                            <li><strong>Automated Inventory/Shipping/Supplier Module:</strong></li>
+                                            <li>Manage thousands to millions of inventory with ease and check stock
+                                                levels in real-time. Receive low inventory notifications and generate
+                                                purchase orders to replenish your stock.</li>
+
+                                            <li>Suppliers Integration (API NEEDED)</li>
+                                            <li>Shipper Integration (API NEEDED)</li>
+                                            <li>Order management</li>
+                                            <li>LOT numbers and expire date tracking</li>
+                                            <li>Transfer stock between warehouses (If Warehouse - API NEEDED)</li>
+                                            <li>Receive stock into a specific warehouse (If Warehouse - API NEEDED)</li>
+                                            <li>Fulfill orders from a particular warehouse (If Warehouse - API NEEDED)
+                                            </li>
+                                            <li>Stock Management</li>
+                                            <li>Actionable Insights</li>
+                                            <li>Real- Time Visibility</li>
+                                            <li>Inventory Opportunities</li>
+
+                                            <li><strong>Advanced Features: (API Needed For Suppliers/Warehouse)</strong>
+                                            </li>
+
+                                            <li>Speak to suppliers during trivial conversations.</li>
+                                            <li>Set and send actions to suppliers regarding governance and compliance
+                                                materials. Place purchasing requests.</li>
+                                            <li>Research and answer internal questions regarding procurement
+                                                functionalities or a supplier/supplier set.</li>
+                                            <li>Receiving/filing/documentation of invoices and payments/order requests
+                                            </li>
+                                            <li>Machine Learning (ML) for Supply Chain Planning (SCP)</li>
+                                            <li>Machine Learning for Warehouse Management</li>
+                                            <li>Natural Language Processing (NLP) for Data Cleansing and Building Data
+                                                Robustness</li>
+
+                                            <li><strong>Automated Invoices &amp; Estimates</strong></li>
+
+                                            <li>Create beautiful, professional invoices &amp; estimates in just a few
+                                                seconds and then instantly email them as PDF's directly to your
+                                                customers or prospects.</li>
+                                            <li>Automated Split invoicing</li>
+                                            <li>Automated Combine invoices</li>
+                                            <li>Invoice templates</li>
+
+                                            <li><strong>Automated Barcode Scanning</strong></li>
+                                            <li>Scan inventory into your orders, generate barcodes for your documents,
+                                                and search for inventory or documents by scanning barcodes.</li>
+
+                                            <li><strong>Locations and Zones</strong></li>
+                                            <li>Have multiple warehouses, offices, or retail stores? No problem. Easily
+                                                track where all your inventory is by organizing everything into
+                                                locations and zones. Organize inventory items using custom attributes
+                                                such as size, color, and location. View how many you have globally or at
+                                                each location.</li>
+
+                                            <li><strong>Customer Accounts</strong></li>
+
+                                            <li>Performance and analytics</li>
+                                            <li>Customization of Personal Details</li>
+                                            <li>Process management</li>
+                                            <li>Sales Automation</li>
+                                            <li>Team Collaboration</li>
+                                            <li>Marketing Automation</li>
+                                            <li> Security</li>
+                                            <li>Integrations</li>
+                                            <li>Mobile Notifications</li>
+                                            <li>Sales Reports</li>
+                                            <li>Trend Analytics</li>
+                                            <li>Forecasting</li>
+                                            <li>Territory Management</li>
+                                            <li>Account Management</li>
+                                            <li>Event Integration</li>
+                                            <li>Advanced Data Security</li>
+
+
+                                            <li><strong>Purchase Orders</strong></li>
+
+                                            <li>With integrated purchase orders, you can easily replenish your inventory
+                                                levels by ordering more stock and even track when those new items will
+                                                arrive.</li>
+                                            <li>Partial orders fulfill</li>
+                                            <li>Backordering</li>
+
+
+                                            <li><strong>Financial Reports</strong></li>
+
+                                            <li>Generate extremely detailed reports for your inventory, sales and
+                                                services. Filter your reports by date-range and category to see what's
+                                                making you the most money.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="cardFooter">
+                                        <a href="#" class="themeBtn order-package"
+                                            data-sku="AUTOMATED_INTERACTIVE_ECOM_PACKAGE" data-promotion-id="0"
+                                            data-price="9995" data-price-text="$ 9995.00"
+                                            data-title="Automated / Interactive  E-Commerce Package"
+                                            data-package-id="6632">Order Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="packagesCard" data-package-box="">
+                                    <div class="productSku" style="display: none;">
+                                        CUSTOM_CRM_ERP_PORTAL_PACKAGE
+                                    </div>
+
+                                    <h5>Custom CRM/ERP Portal Website Package</h5>
+                                    <h2>$14995</h2>
+                                    <del>$59980</del>
+
+                                    <div data-package-scroll="">
+                                        <ul class="packfeatures list-scroll">
+                                            <li>Unlimited Page Website</li>
+                                            <li>Unique Pages and UI Design</li>
+                                            <li>Complete Custom Development</li>
+                                            <li>Newsfeed Integration</li>
+                                            <li>CRM (Customer Relation Management System)</li>
+                                            <li>Performance and analytics</li>
+                                            <li>Customization of Personal Details</li>
+                                            <li>Process management</li>
+                                            <li>Sales Automation</li>
+                                            <li>Team Collaboration</li>
+                                            <li>Marketing Automation</li>
+                                            <li>Security</li>
+                                            <li>Integrations</li>
+                                            <li>Mobile Notifications</li>
+                                            <li>Sales Reports</li>
+                                            <li>Trend Analytics</li>
+                                            <li>Forecasting</li>
+                                            <li>Territory Management</li>
+                                            <li>Account Management</li>
+                                            <li>Event Integration</li>
+                                            <li>Advanced Data Security</li>
+                                            <li>Opportunity Management</li>
+                                            <li>Sales Forecasting</li>
+                                            <li>Call/Video Logging</li>
+                                            <li>Quotes</li>
+                                            <li>Contracts</li>
+                                            <li>Document Library</li>
+                                            <li>Case Management</li>
+                                            <li>Analytics and Dashboards</li>
+                                            <li>Lead Management</li>
+                                            <li>Resource Management</li>
+                                            <li>Analytics</li>
+                                            <li>Web Intelligence</li>
+                                            <li>Automated Emails, Invoices & Estimates</li>
+                                            <li>Automated Split invoicing</li>
+                                            <li>Automated Combine invoices</li>
+                                            <li>Invoice templates</li>
+                                            <li>Financial Reports</li>
+                                            <li>Generate extremely detailed reports for your sales and services. Filter
+                                                your reports by date-range and category to see what's making you the
+                                                most money.</li>
+                                            <li>Generate automated sales reports</li>
+                                            <li>Core Modules</li>
+                                            <li>Human Resources</li>
+                                            <li>Integration</li>
+                                            <li>Business Intelligence</li>
+                                            <li>Sales/Marketing</li>
+                                            <li>Finance</li>
+                                            <li>Core Features</li>
+                                            <li>Reporting</li>
+                                            <li>Accounting</li>
+                                            <li>Tracking and Visibility</li>
+                                            <li>Centralized Modules</li>
+                                            <li>ERP Database</li>
+                                            <li>Human Resources Management</li>
+                                            <li>Business Process Management</li>
+                                            <li>Enterprise Analytics</li>
+                                            <li>Business Intelligence</li>
+                                            <li>Centralized Modules</li>
+                                            <li>ERP Database</li>
+                                            <li>Integrations</li>
+                                            <li>If (Manufacturing) (Optional)</li>
+                                            <li>Accounting</li>
+                                            <li>Distribution</li>
+                                            <li>Business Intelligence</li>
+                                            <li>Insights</li>
+                                            <li>Standardization</li>
+                                            <li>Procurement</li>
+                                            <li>Reporting and Analytics</li>
+                                            <li>Forecasting</li>
+                                            <li>Projection</li>
+                                            <li>Enterprise-wide integration</li>
+                                            <li>Real-Time Operations</li>
+                                            <li>Problem definition</li>
+                                            <li>Description of the program’s objectives and scope</li>
+                                            <li>Assumptions</li>
+                                            <li>Implementation costs</li>
+                                            <li>Implementation schedule</li>
+                                            <li>Development and operational risks</li>
+                                            <li>Projected benefits</li>
+                                            <li>Team Members</li>
+                                            <li>Contracts</li>
+                                            <li>Infrastructure Upgrades</li>
+                                            <li>Create work plans and timelines</li>
+                                            <li>Analyze gaps</li>
+                                            <li>Configure parameters</li>
+                                            <li>Migrate data</li>
+                                            <li>Test system</li>
+                                            <li>Document system</li>
+                                            <li>Advanced Admin Features 2.0</li>
+                                            <li>User Signup/Login Functionalities</li>
+                                            <li>Advanced User Features</li>
+                                            <li>User Profile Management</li>
+                                            <li>General Configuration Features</li>
+                                            <li>Complete W3C Certified HTML</li>
+                                            <li>Complete Deployment</li>
+                                            <li>100% Satisfaction Guarantee</li>
+                                            <li>100% Unique Design Guarantee</li>
+                                            <li>Money Back Guarantee</li>
+                                        </ul>
+                                    </div>
+                                    <div class="cardFooter">
+                                        <a href="#" class="themeBtn order-package"
+                                            data-sku="CUSTOM_CRM_ERP_PORTAL_PACKAGE" data-promotion-id="0"
+                                            data-price="14995" data-price-text="$ 14995.00"
+                                            data-title="Custom CRM/ERP Portal Website Package"
+                                            data-package-id="6633">Order Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -1063,7 +822,6 @@
 
                     <div class="swiper packageSlider">
                         <div class="swiper-wrapper">
-
                             <div class="swiper-slide">
                                 <div class="packagesCard" data-package-box="">
                                     <div class="productSku" style="display: none;">
@@ -1220,7 +978,6 @@
 
                     <div class="row">
 
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1269,7 +1026,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1321,7 +1077,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1373,7 +1128,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1435,7 +1189,6 @@
 
                     <div class="swiper packageSlider">
                         <div class="swiper-wrapper">
-
                             <div class="swiper-slide">
                                 <div class="packagesCard" data-package-box="">
                                     <div class="productSku" style="display: none;">
@@ -1704,7 +1457,6 @@
 
                     <div class="row">
 
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1738,7 +1490,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1777,7 +1528,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1820,7 +1570,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1874,7 +1623,6 @@
 
                     <div class="row">
 
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1906,7 +1654,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1943,7 +1690,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -1980,7 +1726,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -2026,7 +1771,6 @@
 
 
                     <div class="row">
-
 
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
@@ -2106,7 +1850,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -2208,7 +1951,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="packagesCard" data-package-box="">
                                 <div class="productSku" style="display: none;">
@@ -2273,266 +2015,10 @@
 
                 </div>
 
-
             </div>
-
         </div>
     </section>
     <!-- !@Packages  Section -->
-
-    <!-- Process Step Section -->
-    <section class="processStepSection">
-        <div class="blurTop"></div>
-        <div class="text">Our Process</div>
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-lg-4">
-                    <h2 class="secHeading">Our <span class="blue">Process</span></h2>
-                </div>
-                <div class="col-lg-6">
-                    <div class="processStepWrapper">
-                        <div class="processStepItem">
-                            <span>01</span>
-                            <h4>Brief</h4>
-                            <p>
-                                Our process begins with a comprehensive assessment of your website requirements and
-                                objectives. We conduct a thorough review and extensive research to ensure our designer
-                                and content strategist fully align with your goals. This step allows us to create a
-                                strategic plan that ensures a seamless experience. Our affordable web development
-                                services prioritize efficiency and precision, guaranteeing high-quality results without
-                                exceeding your budget. After gathering insights, our project manager develops wireframes
-                                that serve as the foundation for the entire project, ensuring a well-structured and
-                                user-friendly design.
-                            </p>
-                        </div>
-                        <div class="processStepItem">
-                            <span>02</span>
-                            <h4>Design</h4>
-                            <p>
-                                Following the latest design trends, our creative team initiates the design phase,
-                                crafting visually appealing and highly functional layouts. We focus on creating
-                                intuitive, user-friendly interfaces that enhance engagement and usability. The process
-                                includes multiple revisions to perfect the design before obtaining final approval. Once
-                                approved, the design is handed over to the development team, where it is customized to
-                                align with the project's specific needs. Our affordable web development services ensure
-                                businesses of all sizes can access premium, tailor-made designs without compromising
-                                quality.
-                            </p>
-                        </div>
-                        <div class="processStepItem">
-                            <span>03</span>
-                            <h4>Development</h4>
-                            <p>
-                                Ideas take shape in our development phase, transforming approved designs into fully
-                                functional websites. Our expert developers utilize cutting-edge technologies and best
-                                practices to build responsive, high-performance websites that cater to your audience's
-                                needs. Our affordable web development services give you a seamless, optimized website
-                                that delivers an exceptional user experience. We ensure every website is tailored to
-                                meet industry standards, incorporating essential features such as mobile responsiveness,
-                                fast load times, and secure coding practices.
-                            </p>
-                        </div>
-                        <div class="processStepItem">
-                            <span>04</span>
-                            <h4>FINALIZATION AND DEPLOYMENT</h4>
-                            <p>
-                                Before launching, we conduct rigorous quality assurance and extensive testing on beta
-                                servers to eliminate issues and optimize performance. Our affordable web development
-                                services ensure your website is primed for success, offering a smooth, error-free
-                                experience from day one. Once the website meets our high-quality standards, we deploy
-                                it, ensuring a hassle-free transition. Beyond the launch, our team provides ongoing
-                                support and maintenance for a predetermined period, reaffirming our commitment to your
-                                success. With our affordable web development services, you can rely on us for continuous
-                                improvements and updates, keeping your website ahead of the competition.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- !@Process  Step Section -->
-
-    <!-- Faq Section -->
-    <section class="faqSec noise">
-        <div class="text">Haven't clashed with a developer? Lucky you...</div>
-        <div class="container">
-            <div class="col-lg-10 mx-auto">
-                <h2 class="secHeading">Haven't clashed with a developer? <span class="blue">Lucky you...</span></h2>
-            </div>
-            <p>But if you have, these woes might hit home:</p>
-            <div class="col-lg-11 mx-auto mt-4">
-                <div class="row justify-content-between">
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>Months into the partnership, and glitches still haunt my site</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>My site's sleek, but where's the buzz? I see no results."</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>Questions piling up, and every email's a bill – what's the deal?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>Budgets bloating, and I feel like a mark. Am I being played?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>"I say jump, they ask how high – but is it what I really need?"</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="faqItem">
-                            <div class="faqCont">
-                                <p>"I asked for innovation; they gave me imitation. Where's the creativity?"</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- !@Faq  Section -->
-
-    <!-- Testimonial Section -->
-    <section class="testimonialSec noise">
-        <div class="text">We Love Our Clients</div>
-        <div class="container">
-            <h2 class="text-left secHeading">We Love Our <span class="blue">Clients</span><br> And Clients love to work
-                with us
-            </h2>
-            <div class="swiper testimonialSlider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonialItem">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="testimonialText">
-                                        <h4>
-                                            <q>
-                                                "I can't praise The Web Mastro Marketing Collateral service enough!
-                                                Their designs perfectly encapsulated the essence of my brand and
-                                                resonated with my target audience. Their team's creativity and ability
-                                                to convey messages through visuals are remarkable. Our online presence
-                                                has significantly improved with their affordable web development
-                                                services, helping us attract more clients. Their work has undeniably
-                                                boosted my brand's recognition, and I highly recommend their services to
-                                                others."
-                                            </q>
-                                        </h4>
-                                        <p class="testimonialTextFooter">
-                                            <strong>
-                                                Nancy Collins
-                                            </strong>
-                                            <span>CEO, IT Concept</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <figure>
-                                        <img src="assets/images/user.webp" class="img-fluid"
-                                            alt="CRM Development Services">
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonialItem">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="testimonialText">
-                                        <h4>
-                                            <q>
-                                                "Working with The Web Mastro was an absolute delight! Their team's
-                                                expertise in logo design helped us create a brand identity that
-                                                perfectly captured our company's values. Their affordable web
-                                                development services and e-commerce solutions also elevated our online
-                                                store to new heights, resulting in increased sales and customer
-                                                satisfaction. Their dedication to delivering high-quality web solutions
-                                                makes them the perfect choice for any business looking to grow. I am a
-                                                very happy client!"
-                                            </q>
-                                        </h4>
-                                        <p class="testimonialTextFooter">
-                                            <strong>
-                                                Maria Bateman
-                                            </strong>
-                                            <span>CEO, IT Concept</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <figure>
-                                        <img src="assets/images/user.webp" class="img-fluid"
-                                            alt="CRM Development Services">
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonialItem">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="testimonialText">
-                                        <h4>
-                                            <q>
-                                                "The Web Mastro Video Animation service transformed our marketing
-                                                campaigns. Their creative vision brought our concepts to life, engaging
-                                                our audience in ways we never thought possible. Their animation work
-                                                exceeded our expectations, and their affordable web development services
-                                                also helped us refine our website, ensuring a seamless and engaging user
-                                                experience. Their attention to detail and commitment to delivering
-                                                impactful visuals are commendable. Outstanding work by the entire team!"
-                                            </q>
-                                        </h4>
-                                        <p class="testimonialTextFooter">
-                                            <strong>
-                                                John Thompson
-                                            </strong>
-                                            <span>CEO, IT Concept</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <figure>
-                                        <img src="assets/images/user.webp" class="img-fluid"
-                                            alt="CRM Development Services">
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
-    <!-- !@Testimonial  Section -->
 
     <!-- Contact Section -->
     <section class="contactSec noise">
@@ -2542,275 +2028,14 @@
             <div class="magnetic" data-magnetic="">
                 <a href="javascript:;" data-magnetic="" class="contactBtn chat">
 
-
-
                     <video>
                         <source src="assets/images/get-started.mp4">
                     </video>
+
                 </a>
             </div>
         </div>
     </section>
     <!-- !@Contact  Section -->
 
-    <a href="tel:+1 (877) 209-2681" class="callusnow"><i class="fa fa-phone"></i></a>
-    <a href="Javascript:;" onclick="setButtonURL();" target="_self" class="callusnow chat"><i
-            class="fa fa-comment"></i></a>
-    <div class="floatingform-sec floating_wrapx">
-        <div class="outer-show">
-            <p class="blink">let's Get Started</p>
-        </div>
-        <div class="banner-form">
-            <h3>Avail Now</h3>
-            <div class="banform">
-                <div class="container">
-                    <div class="row">
-                        <div class="ban-form" data-form-type="signup_form">
-                            <form class="cmxform offr-frm leadForm" method="POST" enctype="multipart/form-data"
-                                action="javascript:void(0)" novalidate="novalidate">
-                                <input type="hidden" name="_token" value="jFEMh67AdaJI9dOLUpxSrrVBiyWI99gW01uZBPM8">
-                                <input type="hidden" id="formType" name="formType">
-                                <input type="hidden" id="referer" name="referer">
-                                <div class="row">
-                                    <div class="col-md-12 first">
-                                        <div class="fldset">
-                                            <label>Your Name</label>
-                                            <input id="username" name="name" minlength="2" type="text"
-                                                placeholder="Enter your name *" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="fldset">
-                                            <label>Your Email</label>
-                                            <input id="cemail" type="email" name="email"
-                                                placeholder="Enter email here *" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="fldset">
-                                            <label>Your Number</label>
-                                            <input name="phone" id="phone-coun" required="" type="text" minlength="10"
-                                                maxlength="10" autocomplete="off"
-                                                onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) )"
-                                                placeholder="Phone Number">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="fldset">
-                                            <label>Your Message</label>
-                                            <textarea name="customers_meta[description]" id="" rows="7"
-                                                placeholder="Talk About Your Project"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="fldset">
-                                            <div id="formResult" class="slideformResult"></div>
-                                            <input name="submit" class="floatingFormButton" type="submit"
-                                                placeholder="Connect With Us" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <footer class="noise">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-lg-2 col-12">
-                    <a href="#" class="footerLogo">
-                        <img src="assets/images/footerlogo.webp" class="img-fluid" alt="img">
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="packages.html">Packages</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="reviews.html">Reviews</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="web-development.html">Website Development</a></li>
-                        <li><a href="logo-design.html">Logo Design</a></li>
-                        <li><a href="web-portal.html">Web Portal</a></li>
-                        <li><a href="ecommerce.html">Ecommerce Solutions</a></li>
-                        <li><a href="video-animation.html">Video Animation</a></li>
-                        <li><a href="marketing-collateral.html">Marketing Collateral</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md">
-                    <h4>More Services</h4>
-                    <ul>
-                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                        <li><a href="creative-copywriting.html">Creative Copywriting</a></li>
-                        <li><a href="mobile-apps.html">Mobile Apps</a></li>
-                        <li><a href="seo.html">SEO Services</a></li>
-                        <li><a href="crm.html">CRM Solutions</a></li>
-                    </ul>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-md contactCont">
-                    <h4>Get in Touch Now!</h4>
-                    <ul class="contact">
-                        <li><a href="tel:+1 (877) 209-2681"><i class="fas fa-phone"></i><span>+1 (877)
-                                    209-2681</span></a></li>
-                        <li><a href="mailto:info@thewebmastro.com"><i
-                                    class="fas fa-envelope"></i><span>info@thewebmastro.com</span></a></li>
-                        <li><a href="javascript:;"><i class="fas fa-map-marker-alt"></i><span>1000 Town Center Drive
-                                    Oxnard, CA 93036</span></a>
-                        </li>
-                    </ul>
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/thewebmastrodesign"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li><a href="https://twitter.com/Webmastrooff"><i class="fab fa-twitter"></i></a></li>
-
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="copyRight">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-6">
-                        <p>© 2025 The Web Mastro All rights reserved</p>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="privacy">
-                            <li><a href="order/privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="order/terms-and-conditions.html">Terms and Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Modal -->
-    <div class="pricingModal modal fade" id="pricingModal" tabindex="-1" role="dialog"
-        aria-labelledby="pricingModalTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span class="fas fa-times"></span>
-                </button>
-                <div class="modal-header d-block p-0 border-0">
-                    <div class="modal-heading">
-                        <h3 class="modal-title" id="pricingModalTitle">Ready to Build Your Dream Website?</h3>
-
-                    </div>
-                </div>
-                <div class="modal-body p-0 border-0" data-form-type="signup_form">
-                    <form class="pricingForm leadForm" method="post" enctype="multipart/form-data"
-                        action="javascript:void(0)">
-                        <input type="hidden" id="formType" name="formType">
-                        <input type="hidden" id="referer" name="referer">
-                        <div class="pricingForm-wrap">
-                            <div class="pricingForm-group">
-                                <label> Name</label>
-                                <input type="text" name="name">
-
-
-                            </div>
-                        </div>
-                        <div class="pricingForm-wrap">
-                            <div class="pricingForm-group">
-                                <label>Email Address</label>
-                                <input type="email" name="email">
-                            </div>
-                            <div class="pricingForm-group">
-                                <label>Phone Number</label>
-                                <input type="tel" name="phone">
-                            </div>
-                        </div>
-                        <div class="pricingForm-group">
-                            <label>Message</label>
-                            <textarea rows="5" name="customers_meta[message]"></textarea>
-                        </div>
-                        <div class="pricingForm-btn">
-                            <button type="submit" class="themeBtn border-0">Submit</button>
-                            <div id="formResult"></div>
-
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="assets/js/plugin.js"></script>
-    <script src="assets/js/lazysizes.js"></script>
-    <script src="assets/js/lazyload-background.js"></script>    
-    <script src="assets/js/index.js"></script>
-    <script>
-        var currentTab = 0;
-
-        function showTab(e) {
-            var t = document.getElementsByClassName("tab");
-            t[e].style.display = "block", 0 == e ? (document.getElementById("prevBtn").style.display = "none", document
-                    .getElementById("signupBtn2").style.display = "none", document.getElementById("nextBtn").style
-                    .display = "inline") : document.getElementById("prevBtn").style.display = "inline", e == t.length -
-                1 ? (document.getElementById("nextBtn").style.display = "none", document.getElementById("signupBtn2")
-                    .style.display = "inline") : document.getElementById("nextBtn").innerHTML = "Next"
-        }
-
-        function nextPrev(e) {
-            var t = document.getElementsByClassName("tab");
-            if (1 == e && !validateForm()) return !1;
-            t[currentTab].style.display = "none", showTab(currentTab += e)
-        }
-
-        function validateForm() {
-            var e, t, s = !0;
-            for (e = document.getElementsByClassName("tab")[currentTab].getElementsByTagName("input"), t = 0; t < e
-                .length; t++) "" == e[t].value && (e[t].className += " invalid", s = !1);
-            return s
-        }
-
-        var currentTab03 = 0;
-
-        function showTabPopupExit(e) {
-            var t = document.getElementsByClassName("tab03");
-            t[e].style.display = "block", 0 == e ? (document.getElementById("prevBtn03").style.display = "none",
-                    document.getElementById("signupBtn03").style.display = "none", document.getElementById("nextBtn03")
-                    .style.display = "inline") : document.getElementById("prevBtn03").style.display = "inline", e == t
-                .length - 1 ? (document.getElementById("nextBtn03").style.display = "none", document.getElementById(
-                    "signupBtn03").style.display = "inline") : document.getElementById("nextBtn03").innerHTML = "Next"
-        }
-    </script>    
-    <script>
-        console.log("ok")
-    </script>
-    <script>
-        $('.chat, .chatt, .live_chatt').click(function () {
-            $zopim.livechat.window.toggle();
-        });
-
-        function setButtonURL() {
-            $zopim(function () {
-                $zopim.livechat.window.toggle()
-            })
-        }
-        // zE(function () {
-        //     zE.activate();
-        // });
-    </script>
-    <!-- End of  Zendesk Widget script -->
-
-</body>
-
-</html>
+    <?php include('include/footer.php'); ?>

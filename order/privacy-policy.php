@@ -45,7 +45,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-3">
-                <a href="../index.html" class="header-logo">
+                <a href="../index.php" class="header-logo">
                     <img src="../assets/order/img/logo.png" alt="">
                 </a>
             </div>
@@ -126,8 +126,8 @@
             </div>
             <div class="col-md-6">
                 <p class="text-right">
-                    <a href="privacy-policy.html" target="_blank">Privacy Policy</a> |
-                    <a href="terms-and-conditions.html" target="_blank">Terms & Conditions</a>
+                    <a href="privacy-policy.php" target="_blank">Privacy Policy</a> |
+                    <a href="terms-and-conditions.php" target="_blank">Terms & Conditions</a>
                 </p>
             </div>
         </div>
@@ -164,7 +164,7 @@
         var trys = 0;
         for (var j = 0; j < categ.length; j++) {
             if ($(this).attr("src") == categ[j]) {
-                var abc = $($(this).parents('li')).find('p').html();
+                var abc = $($(this).parents('li')).find('p').php();
                 logoField = logoField.replace(abc, '');
                 $(this).css("border", "3px solid #777");
                 categ[j] = "";
@@ -172,7 +172,7 @@
             }
         }
         if (trys == 0) {
-            var abc = $($(this).parents('li')).find('p').html();
+            var abc = $($(this).parents('li')).find('p').php();
             logoField += " " + abc;
             $(this).css("border", "3px solid #97C03E");
             categ[i] = $(this).attr("src");
